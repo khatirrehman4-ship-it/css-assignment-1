@@ -1,0 +1,102 @@
+/* --- Global Reset & Page Background --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Source Sans 3", sans-serif;
+    color: #4a4a4a;
+    line-height: 1.75;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Layout Container --- */
+.blog-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* --- Header & Image Elements --- */
+.image-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.category {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.post-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.post-meta {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.post-meta .author {
+    color: #c5a880; /* Elegant gold/tan tint matching the original */
+}
+
+/* --- Typography & Text Content --- */
+.post-content {
+    max-width: 660px; /* Text body is narrower than the header image for optimal readability */
+    margin: 0 auto;
+}
+
+.post-content p {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #555555;
+    margin-bottom: 28px;
+    text-align: left;
+    letter-spacing: 0.2px;
+}
+
+/* --- Links & Accents --- */
+.continue-reading {
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #c5a880;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: color 0.2s ease;
+}
+
+.continue-reading:hover {
+    color: #a3855c;
+}
